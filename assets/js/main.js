@@ -485,7 +485,9 @@ var Site = function Site() {
         });
     },
         setupTracking = function setupTracking() {
+        console.log("tracking");
         (function (i, s, o, g, r, a, m) {
+            console.log("GA");
             i.GoogleAnalyticsObject = r;
             i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments);
@@ -501,12 +503,13 @@ var Site = function Site() {
         ga('send', 'pageview');
         ga(function (tracker) {
             clientId = tracker.get('clientId');
+            fullStoryLink = FS.getCurrentSessionURL();
+            var formURL = 'https://specless.wufoo.com/forms/schedule-a-demo/def/field111=' + clientId + '&field112=' + fullStoryLink;
+            $('#leadForm > iframe').attr('src', 'https://specless.wufoo.com/forms/schedule-a-demo/def/field111=' + clientId + '&field112=' + fullStoryLink);
             FS.identify(clientId, {
                 displayName: 'Site Visitor',
                 siteVisitor: true
             });
-            fullStoryLink = FS.getCurrentSessionURL().replace('https://', '');
-            $('#leadForm > iframe').attr('src', 'https://specless.wufoo.com/forms/schedule-a-demo/def/field111=' + clientId + '&field112=' + fullStoryLink);
         });
         var hero = false,
             publishers = false,
