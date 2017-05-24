@@ -1,0 +1,13 @@
+<svg version="1.1" id="Layer_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="360px" height="360px" viewBox="0 0 360 360" style="enable-background:new 0 0 360 360;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{opacity:0.3;}
+	.st2{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="180" x2="360" y2="180">
+	<stop  offset="0" style="stop-color:#23E79B"/>
+	<stop  offset="1" style="stop-color:#01C0DA"/>
+</linearGradient>
+<polygon class="st0" points="360,360 0,0 360,0 "/>
+</svg>

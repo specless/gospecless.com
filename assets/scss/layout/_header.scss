@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------
+// - Header
+// ----------------------------------------------------------------------
+
+.header {
+	padding: 35px 0 35px 0;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+
+	.page--no-scroll & {
+		position: fixed;
+		top: 0;
+		z-index: 10;
+	}
+
+	.menu {
+		border: none;
+
+		.menu-item {
+			border: none;
+		}
+	}
+}
+
+.site-logo {
+	width: 168px;
+	height: 38px;
+	float: left;
+	top: 4px;
+	position: relative;
+	z-index: 3;
+
+	//a { display: block; }
+}

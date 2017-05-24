@@ -1,0 +1,219 @@
+@import 'branding';
+
+$header-height: $size-up-five;
+$nav-width: $size-up-eight;
+$content-width: 1060px;
+
+
+
+#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{
+	background-image:none;
+}
+
+body {
+	@extend .bg-dark;
+}
+
+#logo{
+	background-image:none;
+	display: none;
+}
+
+#container{
+	background-color: transparent;
+	box-shadow: none;
+}
+.wufoo {
+	font-family: inherit;
+}
+
+.wufoo > h2 {
+	color: $color-light-one;
+	@extend .h4;
+}
+
+.wufoo input.text, .wufoo textarea.textarea {
+	//background:#FFFFFF url(/images/fieldbg.gif) repeat-x top;
+}
+.wufoo .focused, .wufoo li.focused {
+	background: transparent;
+	color: $color-light-one;
+
+	label.desc, .wufoo legend.desc {
+		color: $color-light-one;
+	}
+
+}
+
+.wufoo .error, .wufoo li.error {
+	color: $color-light-one !important;
+
+	label.desc, .wufoo legend.desc {
+		color: $color-light-one !important;
+	}
+
+	.error {
+		color: $color-sunrise !important;
+	}
+
+}
+
+.wufoo li.error {
+	background: $color-overlay-lighten !important;
+}
+
+.wufoo #errorLi, .wufoo .error-container {
+	background-color: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+
+	#errorMsgLbl {
+		color: $color-sunrise !important;
+	}
+
+	#errorMsg {
+		color: $color-light-one !important;
+
+		b {
+			background-color: $color-overlay-lighten !important;
+			border-radius: 0;
+			color: $color-sunrise !important;
+		}
+	} 
+}
+
+.wufoo .instruct {
+	background-color: rgba($color-medium-one, 0.15);
+	border: 1px solid rgba($color-medium-one, 0.25);
+}
+
+/* Borders */
+#container {
+	border: none;
+}
+.wufoo .info {
+	border-bottom: 1px solid $color-dark-one;
+}
+
+/* Typography */
+.wufoo .info h2{
+	color: $color-light-one;
+	text-align: center;
+	@extend .h3;
+}
+.wufoo .info div{
+	color: $color-medium-one;
+	font-size: $size-base;
+}
+.wufoo .section h3{
+	color: $color-light-one;
+	@extend .h4;
+	border-top: 1px solid $color-dark-one;
+}
+.wufoo .section div {
+	color: $color-medium-one;
+	font-size: $size-base;
+}
+.wufoo label.desc, .wufoo legend.desc {
+	@extend .label;
+}
+.wufoo li div {
+	color: $color-medium-one;
+	font-size: $size-base;
+}
+
+.wufoo li span {
+	color: $color-medium-one;
+	font-size: $size-base;
+}
+
+.wufoo span.req {
+	color: $color-aqua !important;
+}
+
+.wufoo li div label:not(.choice), .wufoo li span label:not(.choice) {
+	@extend .label;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice {
+	color: $color-medium-one;
+	font-size: $size-base !important;
+	font-family: inherit;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select {
+	background-color: rgba($color-medium-one, 0.15);
+	border: none;
+	border-bottom: 2px solid $color-medium-one;
+	border-radius: 0;
+	background-image: none;
+	line-height: normal;
+	color: $color-light-one;
+
+	&:focus {
+		border-color: $color-aqua;
+	}
+}
+
+.wufoo input.text, .wufoo select.select {
+	padding: $size-down-two;
+}
+
+.wufoo input.field.file {
+	color: $color-medium-one;
+	font-size: $size-base !important;
+	font-family: inherit;
+}
+
+.wufoo li.buttons {
+	input {
+		@extend .label;
+		color: $color-light-one !important;
+		text-transform: uppercase !important;
+		-webkit-appearance: none;
+		$border-thickness: 2px;
+		white-space: nowrap;
+		padding-right: $size-up-two;
+		padding-left: $size-up-two;
+		border-radius: 2em;
+		box-shadow: $shadow-none;
+		transition: 0.5s ease box-shadow;
+		position: relative;
+		background-color: transparent;
+		box-sizing: border-box;
+		border: $border-thickness solid $color-overlay-darkest;
+		color: black;
+		text-align: center;
+		border-color: $color-overlay-clear;
+		box-shadow: $shadow-medium;
+		background-image: $gradient-warm;
+
+		&:hover {
+			box-shadow: $shadow-high;
+		}
+
+		&:active {
+			box-shadow: $shadow-low;
+		}
+	}
+}
+
+.wufoo textarea.textarea {
+	min-height: 100px;
+	height: 100px;
+}
+
+.wufoo label.choice {
+	color: $color-medium-one;
+	font-size: $size-base;
+}
+.wufoo .instruct small {
+	font-size: $size-down-one;
+	color: $color-light-one;
+}

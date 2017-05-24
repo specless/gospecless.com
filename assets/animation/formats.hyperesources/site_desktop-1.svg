@@ -1,0 +1,39 @@
+<svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="777px" height="1334px" viewBox="0 0 777 1334" style="enable-background:new 0 0 777 1334;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#EDEDED;}
+	.st2{fill:#E4E4E4;}
+	.st3{fill:#D3D3D3;}
+	.st4{fill:#E2E2E2;}
+	.st5{fill:url(#gradient1);}
+</style>
+<rect y="94" class="st0" width="777" height="1240"/>
+<g>
+	<rect x="24" y="1170" class="st1" width="732" height="140"/>
+	<rect x="456" y="950" class="st1" width="300" height="200"/>
+	<rect x="24" y="950" class="st1" width="410" height="200"/>
+</g>
+<g>
+	<rect x="24" y="335" class="st1" width="732" height="144"/>
+	<rect x="24" y="155" class="st1" width="300" height="160"/>
+	<rect x="346" y="155" class="st1" width="410" height="160"/>
+	<rect x="24" y="120" class="st2" width="446" height="15"/>
+	<rect x="489" y="120" class="st2" width="267" height="15"/>
+</g>
+<g>
+	<rect class="st3" width="777" height="56"/>
+	<rect y="56" class="st4" width="777" height="38"/>
+	<rect x="374.5" y="15" class="st0" width="28" height="26"/>
+	<rect x="175.35" y="68.03" class="st0" width="96.75" height="15.12"/>
+	<rect x="285.71" y="68.03" class="st0" width="71.05" height="15.12"/>
+	<rect x="368.85" y="68.03" class="st0" width="116.4" height="15.12"/>
+	<rect x="498.85" y="68.03" class="st0" width="98.26" height="15.12"/>
+</g>
+<!-- 
+<linearGradient id="gradient1" gradientUnits="userSpaceOnUse" x1="388.5" y1="944" x2="388.5" y2="480">
+	<stop  offset="0" style="stop-color:#23E79B"/>
+	<stop  offset="1" style="stop-color:#01C0DA"/>
+</linearGradient>
+<rect y="480" class="st5" width="777" height="464"/>
+ -->
+</svg>

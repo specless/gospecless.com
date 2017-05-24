@@ -1,0 +1,41 @@
+[{
+    "name": "Interactive Parallax",
+    "start": 45,
+    "end": 54
+}, {
+    "name": "Content Break",
+    "start": 0,
+    "end": 12
+}, {
+    "name": "Masthead",
+    "start": 85,
+    "end": 92
+}, {
+    "name": "Explorer",
+    "start": 93,
+    "end": 101
+}, {
+    "name": "Flip Ad",
+    "start": 13,
+    "end": 28
+}, {
+    "name": "Fullscreen Expand",
+    "start": 37,
+    "end": 44
+}, {
+    "name": "Knockout",
+    "start": 55,
+    "end": 66
+}, {
+    "name": "Page Peel",
+    "start": 67,
+    "end": 75
+}, {
+    "name": "Sidekick",
+    "start": 76,
+    "end": 84
+}, {
+    "name": "Floor",
+    "start": 29,
+    "end": 36
+}]

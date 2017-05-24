@@ -1,0 +1,41 @@
+<svg version="1.1" id="Layer_8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="777px" height="990px" viewBox="0 0 777 990" style="enable-background:new 0 0 777 990;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E9E9E9;}
+	.st2{fill:#EFEFEF;}
+	.st3{fill:#F1F1F1;}
+	.st4{fill:#FAFAFA;}
+</style>
+<g>
+	<rect y="74.83" class="st0" width="777" height="915.17"/>
+	<rect class="st1" width="777" height="55.93"/>
+	<rect x="373.38" y="15.12" class="st0" width="28.72" height="25.7"/>
+	<rect y="55.93" class="st2" width="777" height="37.79"/>
+	<rect x="22.68" y="119.42" class="st3" width="447.46" height="302.04"/>
+	
+		<rect x="485.25" y="119.42" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 1238.0603 273.6129)" class="st3" width="267.57" height="34.77"/>
+	
+		<rect x="485.25" y="175.35" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 1207.8269 385.4767)" class="st3" width="237.33" height="34.77"/>
+	
+		<rect x="485.25" y="229.77" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 1108.0564 494.3171)" class="st3" width="137.56" height="34.77"/>
+	<rect x="175.35" y="68.03" class="st0" width="96.75" height="15.12"/>
+	<rect x="285.71" y="68.03" class="st0" width="71.05" height="15.12"/>
+	<rect x="368.85" y="68.03" class="st0" width="116.4" height="15.12"/>
+	<rect x="498.85" y="68.03" class="st0" width="98.26" height="15.12"/>
+	<polygon class="st3" points="666.65,386.99 748.28,386.99 748.28,284.19 488.27,284.19 488.27,409.66 666.65,409.66 	"/>
+	<rect x="21.16" y="592.58" class="st3" width="148.14" height="114.89"/>
+	<polygon class="st4" points="301.65,670.28 374.89,670.28 374.89,592.58 187.45,592.58 187.45,692.35 301.65,692.35 	"/>
+	<rect x="21.16" y="725.6" class="st3" width="148.14" height="114.89"/>
+	<polygon class="st4" points="301.65,803.31 374.89,803.31 374.89,725.6 187.45,725.6 187.45,825.37 301.65,825.37 	"/>
+	<rect x="21.16" y="858.63" class="st3" width="148.14" height="114.89"/>
+	<polygon class="st4" points="301.65,936.34 374.89,936.34 374.89,858.63 187.45,858.63 187.45,958.4 301.65,958.4 	"/>
+	<rect x="400.59" y="592.58" class="st3" width="148.14" height="114.89"/>
+	<polygon class="st4" points="681.08,670.28 754.32,670.28 754.32,592.58 566.88,592.58 566.88,692.35 681.08,692.35 	"/>
+	<rect x="400.59" y="725.6" class="st3" width="148.14" height="114.89"/>
+	<polygon class="st4" points="681.08,803.31 754.32,803.31 754.32,725.6 566.88,725.6 566.88,825.37 681.08,825.37 	"/>
+	<rect x="400.59" y="858.63" class="st3" width="148.14" height="114.89"/>
+	<polygon class="st4" points="681.08,936.34 754.32,936.34 754.32,858.63 566.88,858.63 566.88,958.4 681.08,958.4 	"/>
+	<rect x="22.68" y="445" class="st3" width="282" height="126"/>
+	<rect x="324.7" y="445" class="st3" width="423.58" height="126"/>
+</g>
+</svg>
